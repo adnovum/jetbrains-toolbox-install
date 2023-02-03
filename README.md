@@ -14,9 +14,7 @@ This installer automates the following steps:
 
 Run the following command to get started with Toolbox. This command requires that you have `sudo` privileges and `curl`.  
 ```shell
-curl -fsSL https://raw.githubusercontent.com/adnovum/jetbrains-toolbox-install/master/jetbrains-toolbox.sh -o jetbrains-toolbox.sh
-sudo bash ./jetbrains-toolbox.sh
-rm ./jetbrains-toolbox.sh
+curl -fsSL https://raw.githubusercontent.com/adnovum/jetbrains-toolbox-install/master/jetbrains-toolbox.sh | bash
 ```
 
 Alternatively, you can download the `jetbrains-toolbox.sh` file on this repository. It will still require `sudo` privileges to install.
