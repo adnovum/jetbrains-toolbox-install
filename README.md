@@ -12,6 +12,8 @@ This installer automates the following steps:
 
 ## Usage
 
+> This command is executed by the RHEL VM installer bootstrap script, it means VMs are pre-installed with Jetbrains Toolbox.
+
 Run the following command to get started with Toolbox. This command requires that you have `sudo` privileges and `curl`.  
 ```shell
 curl -fsSL https://raw.githubusercontent.com/adnovum/jetbrains-toolbox-install/master/jetbrains-toolbox.sh | bash
